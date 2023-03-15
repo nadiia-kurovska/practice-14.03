@@ -1,0 +1,67 @@
+.table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.top-row{
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: rgb(202, 202, 236);
+}
+.plan-name{ 
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.plan-price{
+    font-size: 28px;
+    font-weight: 900;
+}
+.plan-period{
+    font-size: 18px;
+}
+.plan{
+    line-height: 7;
+    background-color: rgb(135, 154, 182);
+}
+.blue30{
+    background-color: rgb(79, 130, 160);
+}
+.blue40{
+    background-color: rgb(48, 90, 114);
+}
+.blue50{
+    background-color: rgb(18, 69, 99);
+}
+.blue60{
+    background-color: rgb(6, 47, 71);
+}
+.table-cell{
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.row-1,.row-3,.row-5,.last-row{
+    background-color: rgba(236,236,236,0.8);
+}
+.row-2,.row-4,.row-6{
+    background-color: rgba(246,246,246,0.8);
+}
+/* .col-1,.col-3,.col-5{
+    background-color: rgb(212, 214, 218);
+}
+.col-2,.col-4,.col-6{
+    background-color: rgb(241, 242, 245);
+} */
+.button{
+    border: 1px solid rgb(135, 154, 182);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: medium;
+    color: rgb(89, 91, 92);
+}
+.last-row{
+    line-height: 2.5;
+}
